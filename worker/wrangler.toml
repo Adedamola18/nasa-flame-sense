@@ -1,0 +1,24 @@
+name = "flamesense"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "flamesense-db"
+database_id = "9f0976b2-73c7-4d4a-b0b5-72caa6186e14"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "flamesense-papers"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "flamesense-assets"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "4a31e4cde53b4a2ab4bbd79cc9818ecd"
+
+[ai]
+binding = "AI"

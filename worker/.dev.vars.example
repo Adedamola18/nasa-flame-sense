@@ -1,0 +1,5 @@
+# Local secrets for `wrangler dev`. Copy to .dev.vars (git-ignored).
+# Production: run `npx wrangler secret put <NAME>` from worker/.
+OPENROUTER_API_KEY=
+CF_AIG_TOKEN=
+AI_GATEWAY_URL=https://gateway.ai.cloudflare.com/v1/eb04c3d140ad3ec7669f5dbbde518cf7/default/openrouter

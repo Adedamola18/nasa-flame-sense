@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Wrangler
+node_modules/
+.wrangler/
+.dev.vars
+
+# Secrets
+.env
+
+# Large downloads (kept in R2 / linked to NTRS instead)
+data/papers/*.pdf
+vectors.ndjson
+
+# OS / editor
+.DS_Store
