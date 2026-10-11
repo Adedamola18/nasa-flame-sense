@@ -1,0 +1,173 @@
+{
+  "Meta": {
+    "title": "La longue veille",
+    "description": "25 ans de feux sur la planète, harmonisés à partir de MODIS et VIIRS et racontés par les satellites qui les ont observés.",
+    "explorer": "Explorateur · La longue veille",
+    "method": "Méthode · La longue veille"
+  },
+  "Nav": {
+    "sections": "Sections",
+    "story": "Récit",
+    "explorer": "Explorateur",
+    "method": "Méthode",
+    "language": "Langue"
+  },
+  "Listen": {
+    "listen": "Écouter",
+    "pause": "Pause"
+  },
+  "Story": {
+    "legendTitle": "Suomi-NPP {year}, brut",
+    "legendSource": "NASA FIRMS · Natural Earth",
+    "chapters": "Chapitres",
+    "chapterLabel": "Chapitre {n}",
+    "chapterLink": "Chapitre {n} : {title}",
+    "narratedBy": "Raconté par {narrator}",
+    "notWritten": "Narration pas encore rédigée.",
+    "writerFigures": "Chiffres pour le texte de ce chapitre (à utiliser comme espaces réservés dans messages/*.json) :",
+    "toExplorer": "Chercher n'importe quel lieu sur Terre →",
+    "ch": {
+      "c1": {
+        "title": "Premières lueurs",
+        "narrator": "Terra"
+      },
+      "c2": {
+        "title": "Deux témoins",
+        "narrator": "Aqua"
+      },
+      "c3": {
+        "title": "Ce que voient 375 mètres",
+        "narrator": "Suomi-NPP",
+        "text": "Je suis Suomi-NPP. Je vois le sol en carrés de <fig>375 m</fig>; MODIS le voit en carrés de <fig>1 km</fig>. Un petit feu caché dans l'un de ses pixels lui échappe souvent. Les mêmes jours, MODIS brut compte <fig>{rawGap}</fig> de feux en moins que moi."
+      },
+      "c4": {
+        "title": "Fort McMurray, mai 2016",
+        "narrator": "Suomi-NPP"
+      },
+      "c5": {
+        "title": "L'année où le Canada a brûlé",
+        "narrator": "Terra, Aqua et Suomi-NPP",
+        "text": "Je suis Terra. Je survole le Canada chaque matin vers dix heures. En <fig>{year}</fig>, la carte officielle des feux du pays a recensé <fig>{burned} Mha</fig> brûlés. C'est <fig>{ratio} ×</fig> la saison moyenne depuis {firstYear}, et plus que {seasons, plural, one {la saison précédente} other {les # saisons précédentes}} réunies."
+      },
+      "c6": {
+        "title": "Jasper, juillet 2024",
+        "narrator": "Suomi-NPP"
+      },
+      "c7": {
+        "title": "Autour du monde",
+        "narrator": "Terra, Aqua et Suomi-NPP"
+      },
+      "c8": {
+        "title": "La dérive",
+        "narrator": "Terra",
+        "text": "Mon orbite dérive. Je passais autrefois à <fig>{terraFrom}</fig>, heure locale; en {lastYear}, c'était à <fig>{terraTo}</fig>. Aqua dérive dans l'autre sens, de <fig>{aquaFrom}</fig> à <fig>{aquaTo}</fig>. Les feux sont les plus intenses en milieu d'après-midi : l'heure de notre passage change ce que nous voyons."
+      },
+      "c9": {
+        "title": "Passer le relais",
+        "narrator": "Suomi-NPP → NOAA-20 / NOAA-21"
+      },
+      "c10": {
+        "title": "Votre lieu",
+        "narrator": "Vous"
+      }
+    }
+  },
+  "Map": {
+    "hint": "Cliquez sur une cellule de feu pour les détails",
+    "close": "Fermer",
+    "cell": "Cellule de grille de 0,25°",
+    "location": "Position",
+    "biome": "Biome",
+    "ecoregion": "Écorégion",
+    "ecozone": "Écozone",
+    "detections": "Détections, {year}",
+    "detectionsValue": "{n} · Suomi-NPP, brut",
+    "coords": "{lat}° {ns}, {lon}° {ew}",
+    "north": "N",
+    "south": "S",
+    "east": "E",
+    "west": "O",
+    "noCountry": "Côte ou eaux libres",
+    "continent": "Continent"
+  },
+  "Biomes": {
+    "b1": "Forêts tropicales et subtropicales humides de feuillus",
+    "b2": "Forêts tropicales et subtropicales sèches de feuillus",
+    "b3": "Forêts tropicales et subtropicales de conifères",
+    "b4": "Forêts tempérées de feuillus et mixtes",
+    "b5": "Forêts tempérées de conifères",
+    "b6": "Forêts boréales / taïga",
+    "b7": "Prairies, savanes et brousses tropicales et subtropicales",
+    "b8": "Prairies, savanes et brousses tempérées",
+    "b9": "Prairies et savanes inondées",
+    "b10": "Prairies et brousses de montagne",
+    "b11": "Toundra",
+    "b12": "Forêts, bois et maquis méditerranéens",
+    "b13": "Déserts et brousses xériques",
+    "b14": "Mangroves",
+    "b99": "Roche et glace"
+  },
+  "Continents": {
+    "northAmerica": "Amérique du Nord",
+    "southAmerica": "Amérique du Sud",
+    "europe": "Europe",
+    "africa": "Afrique",
+    "asia": "Asie",
+    "oceania": "Océanie",
+    "antarctica": "Antarctique",
+    "sevenSeas": "Haute mer"
+  },
+  "Charts": {
+    "nbacLabel": "Superficie brûlée au Canada par année, de {first} à {last}; {peakYear} est la plus élevée avec {peak} millions d'hectares",
+    "nbacCaption": "Superficie brûlée, Canada, millions d'ha, {first}–{last}. Source : <b>NBAC</b> (Service canadien des forêts), sur une grille de 0,25°.",
+    "nbacTip": "{year} : {value} Mha",
+    "terraTitle": "Terra dérive vers le matin",
+    "terraLabel": "Le passage diurne médian de Terra s'est avancé, surtout après 2021",
+    "aquaTitle": "Aqua dérive vers l'après-midi; Suomi-NPP reste stable",
+    "aquaLabel": "Le passage diurne médian d'Aqua a reculé après 2021, tandis que Suomi-NPP est resté stable",
+    "overpassCaption": "Passage diurne médian, heure solaire locale, toutes les détections de feux dans le monde. Source : FIRMS MCD14ML et VNP14IMG."
+  },
+  "Method": {
+    "eyebrow": "Méthode",
+    "title": "Mêmes jours, deux capteurs, des années que le modèle n'a jamais vues",
+    "intro": "Évalué sur la période réservée {first}–{last}, les jours observés par les deux capteurs. La meilleure méthode d'harmonisation de chaque ligne est mise en évidence; MODIS brut est la référence à battre.",
+    "scoreboard": "Tableau des résultats",
+    "measure": "Mesure",
+    "methods": {
+      "raw_modis": "MODIS brut",
+      "global_multiplier": "Multiplicateur unique",
+      "quantile_mapping": "Appariement des quantiles",
+      "ml": "Modèle d'AA"
+    },
+    "rows": {
+      "cellR": "Corrélation cellule-mois",
+      "cellRmse": "REQM cellule-mois",
+      "cellBias": "Biais cellule-mois",
+      "countryErr": "Erreur médiane pays-année",
+      "biomeErr": "Erreur médiane biome-année"
+    },
+    "footnote": "{n} cellules-mois · grille de 0,25°. Le biais du modèle d'AA augmente en 2022–2024 avec la dérive de l'orbite d'Aqua; 2021 est donc le test le plus juste pour les années reconstituées.",
+    "truthTitle": "Vérifié avec trois registres nationaux de superficies brûlées",
+    "truthCell": "cellules-années · {name} · {country} · {first}–{last}",
+    "countries": {
+      "nbac": "Canada",
+      "mtbs": "États-Unis",
+      "mapbiomas": "Brésil"
+    },
+    "driftTitle": "La dérive : pourquoi les années récentes demandent de la prudence"
+  },
+  "Explorer": {
+    "placeTitle": "N'importe quel lieu sur Terre",
+    "searchLabel": "Chercher un lieu",
+    "searchPlaceholder": "Kelowna, Yellowknife, Pará…",
+    "layerHarmonised": "Harmonisé",
+    "layerRaw": "MODIS brut",
+    "layerNbac": "Superficie brûlée (NBAC)",
+    "placePending": "La recherche de lieux et le calendrier des feux se brancheront sur /api/place et /api/calendar (script 7).",
+    "askTitle": "Poser une question sur ce lieu",
+    "askPlaceholder": "La saison des feux près de Kelowna commence-t-elle plus tôt depuis 2005?",
+    "ask": "Demander",
+    "compare": "Comparer avec un autre lieu",
+    "askPending": "Les réponses viendront de /api/ask une fois les outils de l'agent en ligne. Chaque chiffre citera le résultat d'un outil."
+  }
+}

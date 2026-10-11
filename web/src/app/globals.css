@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Tokens from the frontend mockup. The app is a night-side satellite view, so it is dark only. */
+@theme {
+  --color-night: #0d131c;     /* page ground */
+  --color-orbit: #131c27;     /* raised surface */
+  --color-line: #233142;      /* hairlines, graticule */
+  --color-ink: #e4e8ec;       /* primary text */
+  --color-mute: #8b98a8;      /* secondary text */
+  --color-ember: #ff7a3d;     /* the one accent: primary action and fire */
+  --color-ember-hover: #ff8d58;
+  --color-on-ember: #1a0d06;  /* text on an ember fill */
+  --color-flare: #ffd166;     /* hot end of the fire ramp, focus ring */
+  --color-char: #d8432b;      /* deep end of the fire ramp */
+  --color-modis: #7fa6c8;     /* MODIS series */
+  --color-bar: #3a4859;       /* neutral chart marks */
+}
+
+@theme inline {
+  --font-ui: var(--font-plex-sans), "Helvetica Neue", Arial, sans-serif;
+  --font-data: var(--font-plex-mono), ui-monospace, Menlo, monospace;
+  --font-voice: var(--font-newsreader), Georgia, serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

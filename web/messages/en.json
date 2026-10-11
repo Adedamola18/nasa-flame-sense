@@ -1,0 +1,173 @@
+{
+  "Meta": {
+    "title": "The Long Watch",
+    "description": "25 years of the planet's fires, harmonised from MODIS and VIIRS and told by the satellites that watched them.",
+    "explorer": "Explorer · The Long Watch",
+    "method": "Method · The Long Watch"
+  },
+  "Nav": {
+    "sections": "Sections",
+    "story": "Story",
+    "explorer": "Explorer",
+    "method": "Method",
+    "language": "Language"
+  },
+  "Listen": {
+    "listen": "Listen",
+    "pause": "Pause"
+  },
+  "Story": {
+    "legendTitle": "Suomi-NPP {year}, raw",
+    "legendSource": "NASA FIRMS · Natural Earth",
+    "chapters": "Chapters",
+    "chapterLabel": "Chapter {n}",
+    "chapterLink": "Chapter {n}: {title}",
+    "narratedBy": "Narrated by {narrator}",
+    "notWritten": "Narration not written yet.",
+    "writerFigures": "Figures for this chapter's text (use as placeholders in messages/*.json):",
+    "toExplorer": "Search any place on Earth →",
+    "ch": {
+      "c1": {
+        "title": "First light",
+        "narrator": "Terra"
+      },
+      "c2": {
+        "title": "Two witnesses",
+        "narrator": "Aqua"
+      },
+      "c3": {
+        "title": "What 375 metres sees",
+        "narrator": "Suomi-NPP",
+        "text": "I am Suomi-NPP. I see the ground in <fig>375 m</fig> squares; MODIS sees it in <fig>1 km</fig> squares. A small fire inside one of its pixels is often missed. On the same days, raw MODIS counts <fig>{rawGap}</fig> fewer fires than I do."
+      },
+      "c4": {
+        "title": "Fort McMurray, May 2016",
+        "narrator": "Suomi-NPP"
+      },
+      "c5": {
+        "title": "The year Canada burned",
+        "narrator": "Terra, Aqua & Suomi-NPP",
+        "text": "I am Terra. I cross Canada every morning at about ten. In <fig>{year}</fig> the country's official fire map recorded <fig>{burned} Mha</fig> burned. That is <fig>{ratio}×</fig> the average season since {firstYear}, and more than {seasons, plural, one {the season} other {the # seasons}} before it combined."
+      },
+      "c6": {
+        "title": "Jasper, July 2024",
+        "narrator": "Suomi-NPP"
+      },
+      "c7": {
+        "title": "Around the world",
+        "narrator": "Terra, Aqua & Suomi-NPP"
+      },
+      "c8": {
+        "title": "The drift",
+        "narrator": "Terra",
+        "text": "My orbit is drifting. I used to pass over at <fig>{terraFrom}</fig> local time; by {lastYear} it was <fig>{terraTo}</fig>. Aqua drifts the other way, from <fig>{aquaFrom}</fig> to <fig>{aquaTo}</fig>. Fires burn hardest in mid-afternoon, so the hour we pass changes what we see."
+      },
+      "c9": {
+        "title": "Passing the watch",
+        "narrator": "Suomi-NPP → NOAA-20 / NOAA-21"
+      },
+      "c10": {
+        "title": "Your place",
+        "narrator": "You"
+      }
+    }
+  },
+  "Map": {
+    "hint": "Click a fire cell for details",
+    "close": "Close",
+    "cell": "0.25° grid cell",
+    "location": "Location",
+    "biome": "Biome",
+    "ecoregion": "Ecoregion",
+    "ecozone": "Ecozone",
+    "detections": "Detections, {year}",
+    "detectionsValue": "{n} · Suomi-NPP, raw",
+    "coords": "{lat}° {ns}, {lon}° {ew}",
+    "north": "N",
+    "south": "S",
+    "east": "E",
+    "west": "W",
+    "noCountry": "Coast or open water",
+    "continent": "Continent"
+  },
+  "Biomes": {
+    "b1": "Tropical & Subtropical Moist Broadleaf Forests",
+    "b2": "Tropical & Subtropical Dry Broadleaf Forests",
+    "b3": "Tropical & Subtropical Coniferous Forests",
+    "b4": "Temperate Broadleaf & Mixed Forests",
+    "b5": "Temperate Conifer Forests",
+    "b6": "Boreal Forests/Taiga",
+    "b7": "Tropical & Subtropical Grasslands, Savannas & Shrublands",
+    "b8": "Temperate Grasslands, Savannas & Shrublands",
+    "b9": "Flooded Grasslands & Savannas",
+    "b10": "Montane Grasslands & Shrublands",
+    "b11": "Tundra",
+    "b12": "Mediterranean Forests, Woodlands & Scrub",
+    "b13": "Deserts & Xeric Shrublands",
+    "b14": "Mangroves",
+    "b99": "Rock & Ice"
+  },
+  "Continents": {
+    "northAmerica": "North America",
+    "southAmerica": "South America",
+    "europe": "Europe",
+    "africa": "Africa",
+    "asia": "Asia",
+    "oceania": "Oceania",
+    "antarctica": "Antarctica",
+    "sevenSeas": "Open ocean"
+  },
+  "Charts": {
+    "nbacLabel": "Burned area in Canada by year, {first} to {last}; {peakYear} is highest at {peak} million hectares",
+    "nbacCaption": "Burned area, Canada, million ha, {first}–{last}. Source: <b>NBAC</b> (Canadian Forest Service), gridded to 0.25°.",
+    "nbacTip": "{year}: {value} Mha",
+    "terraTitle": "Terra drifts earlier",
+    "terraLabel": "Terra's median daytime overpass moved earlier, most sharply after 2021",
+    "aquaTitle": "Aqua drifts later; Suomi-NPP holds",
+    "aquaLabel": "Aqua's median daytime overpass moved later after 2021 while Suomi-NPP stayed steady",
+    "overpassCaption": "Median daytime overpass, local solar time, all fire detections worldwide. Source: FIRMS MCD14ML and VNP14IMG."
+  },
+  "Method": {
+    "eyebrow": "Method",
+    "title": "Same days, both sensors, years the model never saw",
+    "intro": "Scored on the {first}–{last} hold-out, on days both sensors observed. The best harmonisation method in each row is highlighted; raw MODIS is the reference to beat.",
+    "scoreboard": "Scoreboard",
+    "measure": "Measure",
+    "methods": {
+      "raw_modis": "Raw MODIS",
+      "global_multiplier": "One multiplier",
+      "quantile_mapping": "Quantile mapping",
+      "ml": "ML model"
+    },
+    "rows": {
+      "cellR": "Cell-month correlation",
+      "cellRmse": "Cell-month RMSE",
+      "cellBias": "Cell-month bias",
+      "countryErr": "Country-year median error",
+      "biomeErr": "Biome-year median error"
+    },
+    "footnote": "{n} cell-months · 0.25° grid. The ML bias grows in 2022–2024 as Aqua's orbit drifts, so 2021 is the fairest test for the back-cast years.",
+    "truthTitle": "Checked against three national burned-area records",
+    "truthCell": "cell-years · {name} · {country} · {first}–{last}",
+    "countries": {
+      "nbac": "Canada",
+      "mtbs": "United States",
+      "mapbiomas": "Brazil"
+    },
+    "driftTitle": "The drift: why recent years need care"
+  },
+  "Explorer": {
+    "placeTitle": "Any place on Earth",
+    "searchLabel": "Search a place",
+    "searchPlaceholder": "Kelowna, Yellowknife, Pará…",
+    "layerHarmonised": "Harmonised",
+    "layerRaw": "Raw MODIS",
+    "layerNbac": "NBAC burned area",
+    "placePending": "Place search and the fire calendar connect to /api/place and /api/calendar (script 7).",
+    "askTitle": "Ask about this place",
+    "askPlaceholder": "Has the fire season near Kelowna started earlier since 2005?",
+    "ask": "Ask",
+    "compare": "Compare with another place",
+    "askPending": "Answers come from /api/ask once the agent tools are live. Every number will cite a tool result."
+  }
+}
