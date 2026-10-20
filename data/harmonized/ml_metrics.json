@@ -1,0 +1,1771 @@
+{
+  "test_2021_2024": {
+    "cell_month": {
+      "raw_modis": {
+        "bias_pct": -82.8,
+        "rmse": 137.37,
+        "r": 0.86,
+        "r_log": 0.829,
+        "median_abs_pct_err": 81.8,
+        "n": 986217
+      },
+      "global_multiplier": {
+        "bias_pct": 5.1,
+        "rmse": 74.91,
+        "r": 0.86,
+        "r_log": 0.831,
+        "median_abs_pct_err": 56.4,
+        "n": 986217
+      },
+      "quantile_mapping": {
+        "bias_pct": -0.4,
+        "rmse": 59.11,
+        "r": 0.917,
+        "r_log": 0.837,
+        "median_abs_pct_err": 54.9,
+        "n": 986217
+      },
+      "ml": {
+        "bias_pct": 1.5,
+        "rmse": 41.83,
+        "r": 0.958,
+        "r_log": 0.905,
+        "median_abs_pct_err": 42.1,
+        "n": 986217
+      },
+      "merged": {
+        "bias_pct": 1.5,
+        "rmse": 41.83,
+        "r": 0.958,
+        "r_log": 0.905,
+        "median_abs_pct_err": 42.1,
+        "n": 986217
+      }
+    },
+    "cell_month_all": {
+      "raw_modis": {
+        "bias_pct": -84.0,
+        "rmse": 59.54,
+        "r": 0.876,
+        "r_log": 0.849,
+        "median_abs_pct_err": 0.0,
+        "n": 5286505
+      },
+      "global_multiplier": {
+        "bias_pct": -2.1,
+        "rmse": 32.73,
+        "r": 0.876,
+        "r_log": 0.846,
+        "median_abs_pct_err": 0.0,
+        "n": 5286505
+      },
+      "quantile_mapping": {
+        "bias_pct": -7.3,
+        "rmse": 26.01,
+        "r": 0.925,
+        "r_log": 0.854,
+        "median_abs_pct_err": 0.0,
+        "n": 5286505
+      },
+      "ml": {
+        "bias_pct": 1.3,
+        "rmse": 18.66,
+        "r": 0.961,
+        "r_log": 0.897,
+        "median_abs_pct_err": 29.6,
+        "n": 5286505
+      },
+      "merged": {
+        "bias_pct": 1.3,
+        "rmse": 18.66,
+        "r": 0.961,
+        "r_log": 0.897,
+        "median_abs_pct_err": 29.6,
+        "n": 5286505
+      }
+    },
+    "biome_name_year": {
+      "raw_modis": {
+        "bias_pct": -84.0,
+        "rmse": 1997195.98,
+        "r": 0.996,
+        "r_log": 0.99,
+        "median_abs_pct_err": 85.1,
+        "n": 56
+      },
+      "global_multiplier": {
+        "bias_pct": -2.1,
+        "rmse": 281067.43,
+        "r": 0.996,
+        "r_log": 0.99,
+        "median_abs_pct_err": 9.8,
+        "n": 56
+      },
+      "quantile_mapping": {
+        "bias_pct": -0.9,
+        "rmse": 56733.73,
+        "r": 1.0,
+        "r_log": 0.999,
+        "median_abs_pct_err": 4.1,
+        "n": 56
+      },
+      "ml": {
+        "bias_pct": 3.3,
+        "rmse": 129031.79,
+        "r": 0.999,
+        "r_log": 0.999,
+        "median_abs_pct_err": 3.9,
+        "n": 56
+      },
+      "merged": {
+        "bias_pct": 3.3,
+        "rmse": 129031.79,
+        "r": 0.999,
+        "r_log": 0.999,
+        "median_abs_pct_err": 3.9,
+        "n": 56
+      }
+    },
+    "country_iso3_year": {
+      "raw_modis": {
+        "bias_pct": -84.0,
+        "rmse": 223105.12,
+        "r": 0.958,
+        "r_log": 0.982,
+        "median_abs_pct_err": 86.7,
+        "n": 670
+      },
+      "global_multiplier": {
+        "bias_pct": -2.1,
+        "rmse": 76555.92,
+        "r": 0.958,
+        "r_log": 0.977,
+        "median_abs_pct_err": 24.3,
+        "n": 670
+      },
+      "quantile_mapping": {
+        "bias_pct": -0.9,
+        "rmse": 36233.06,
+        "r": 0.991,
+        "r_log": 0.977,
+        "median_abs_pct_err": 24.1,
+        "n": 670
+      },
+      "ml": {
+        "bias_pct": 3.3,
+        "rmse": 19654.61,
+        "r": 0.998,
+        "r_log": 0.982,
+        "median_abs_pct_err": 15.6,
+        "n": 670
+      },
+      "merged": {
+        "bias_pct": 3.3,
+        "rmse": 19654.59,
+        "r": 0.998,
+        "r_log": 0.982,
+        "median_abs_pct_err": 15.6,
+        "n": 670
+      }
+    },
+    "ca_ecozone_year": {
+      "raw_modis": {
+        "bias_pct": -91.7,
+        "rmse": 115131.97,
+        "r": 0.975,
+        "r_log": 0.984,
+        "median_abs_pct_err": 89.7,
+        "n": 51
+      },
+      "global_multiplier": {
+        "bias_pct": -49.4,
+        "rmse": 64722.58,
+        "r": 0.975,
+        "r_log": 0.984,
+        "median_abs_pct_err": 37.6,
+        "n": 51
+      },
+      "quantile_mapping": {
+        "bias_pct": -6.1,
+        "rmse": 25479.95,
+        "r": 0.976,
+        "r_log": 0.98,
+        "median_abs_pct_err": 20.9,
+        "n": 51
+      },
+      "ml": {
+        "bias_pct": -0.8,
+        "rmse": 7529.83,
+        "r": 0.998,
+        "r_log": 0.987,
+        "median_abs_pct_err": 10.7,
+        "n": 51
+      },
+      "merged": {
+        "bias_pct": -0.8,
+        "rmse": 7529.83,
+        "r": 0.998,
+        "r_log": 0.987,
+        "median_abs_pct_err": 10.7,
+        "n": 51
+      }
+    },
+    "global_year_bias_pct": {
+      "raw_modis": {
+        "2021": -84.3,
+        "2022": -83.7,
+        "2023": -84.2,
+        "2024": -83.5
+      },
+      "global_multiplier": {
+        "2021": -4.5,
+        "2022": -0.4,
+        "2023": -3.7,
+        "2024": 0.5
+      },
+      "quantile_mapping": {
+        "2021": -1.9,
+        "2022": -1.9,
+        "2023": -0.6,
+        "2024": 0.6
+      },
+      "ml": {
+        "2021": 0.1,
+        "2022": 2.2,
+        "2023": 3.8,
+        "2024": 6.5
+      },
+      "merged": {
+        "2021": 0.1,
+        "2022": 2.2,
+        "2023": 3.8,
+        "2024": 6.5
+      }
+    },
+    "per_biome_bias_pct": {
+      "Boreal Forests/Taiga": {
+        "raw_modis": -91.3,
+        "global_multiplier": -47.2,
+        "quantile_mapping": 0.0,
+        "ml": 0.1,
+        "merged": 0.1
+      },
+      "Deserts & Xeric Shrublands": {
+        "raw_modis": -87.3,
+        "global_multiplier": -22.6,
+        "quantile_mapping": -4.5,
+        "ml": -0.5,
+        "merged": -0.5
+      },
+      "Flooded Grasslands & Savannas": {
+        "raw_modis": -83.9,
+        "global_multiplier": -1.7,
+        "quantile_mapping": -1.9,
+        "ml": 0.3,
+        "merged": 0.3
+      },
+      "Mangroves": {
+        "raw_modis": -83.3,
+        "global_multiplier": 1.9,
+        "quantile_mapping": 8.8,
+        "ml": 10.1,
+        "merged": 10.1
+      },
+      "Mediterranean Forests, Woodlands & Scrub": {
+        "raw_modis": -84.0,
+        "global_multiplier": -2.5,
+        "quantile_mapping": -5.7,
+        "ml": -2.4,
+        "merged": -2.4
+      },
+      "Montane Grasslands & Shrublands": {
+        "raw_modis": -84.3,
+        "global_multiplier": -4.0,
+        "quantile_mapping": 1.1,
+        "ml": 6.2,
+        "merged": 6.2
+      },
+      "Temperate Broadleaf & Mixed Forests": {
+        "raw_modis": -85.5,
+        "global_multiplier": -11.5,
+        "quantile_mapping": -7.6,
+        "ml": -1.9,
+        "merged": -1.9
+      },
+      "Temperate Conifer Forests": {
+        "raw_modis": -88.8,
+        "global_multiplier": -31.7,
+        "quantile_mapping": 0.5,
+        "ml": -0.1,
+        "merged": -0.1
+      },
+      "Temperate Grasslands, Savannas & Shrublands": {
+        "raw_modis": -83.9,
+        "global_multiplier": -1.6,
+        "quantile_mapping": -7.4,
+        "ml": 1.1,
+        "merged": 1.1
+      },
+      "Tropical & Subtropical Coniferous Forests": {
+        "raw_modis": -89.3,
+        "global_multiplier": -35.0,
+        "quantile_mapping": 2.1,
+        "ml": 6.9,
+        "merged": 6.9
+      },
+      "Tropical & Subtropical Dry Broadleaf Forests": {
+        "raw_modis": -86.2,
+        "global_multiplier": -16.0,
+        "quantile_mapping": 4.1,
+        "ml": 2.6,
+        "merged": 2.6
+      },
+      "Tropical & Subtropical Grasslands, Savannas & Shrublands": {
+        "raw_modis": -82.1,
+        "global_multiplier": 9.0,
+        "quantile_mapping": -0.2,
+        "ml": 2.7,
+        "merged": 2.7
+      },
+      "Tropical & Subtropical Moist Broadleaf Forests": {
+        "raw_modis": -83.3,
+        "global_multiplier": 1.6,
+        "quantile_mapping": -2.2,
+        "ml": 9.2,
+        "merged": 9.2
+      },
+      "Tundra": {
+        "raw_modis": -89.7,
+        "global_multiplier": -37.4,
+        "quantile_mapping": -1.9,
+        "ml": -3.2,
+        "merged": -3.2
+      }
+    }
+  },
+  "test_2021": {
+    "cell_month": {
+      "raw_modis": {
+        "bias_pct": -83.2,
+        "rmse": 147.73,
+        "r": 0.871,
+        "r_log": 0.83,
+        "median_abs_pct_err": 81.8,
+        "n": 247289
+      },
+      "global_multiplier": {
+        "bias_pct": 2.4,
+        "rmse": 77.31,
+        "r": 0.871,
+        "r_log": 0.832,
+        "median_abs_pct_err": 54.9,
+        "n": 247289
+      },
+      "quantile_mapping": {
+        "bias_pct": -1.2,
+        "rmse": 56.14,
+        "r": 0.937,
+        "r_log": 0.839,
+        "median_abs_pct_err": 54.3,
+        "n": 247289
+      },
+      "ml": {
+        "bias_pct": -1.4,
+        "rmse": 40.58,
+        "r": 0.966,
+        "r_log": 0.912,
+        "median_abs_pct_err": 39.3,
+        "n": 247289
+      },
+      "merged": {
+        "bias_pct": -1.4,
+        "rmse": 40.58,
+        "r": 0.966,
+        "r_log": 0.912,
+        "median_abs_pct_err": 39.3,
+        "n": 247289
+      }
+    },
+    "cell_month_all": {
+      "raw_modis": {
+        "bias_pct": -84.3,
+        "rmse": 63.85,
+        "r": 0.884,
+        "r_log": 0.848,
+        "median_abs_pct_err": 0.0,
+        "n": 1329044
+      },
+      "global_multiplier": {
+        "bias_pct": -4.5,
+        "rmse": 33.59,
+        "r": 0.884,
+        "r_log": 0.846,
+        "median_abs_pct_err": 0.0,
+        "n": 1329044
+      },
+      "quantile_mapping": {
+        "bias_pct": -7.9,
+        "rmse": 24.55,
+        "r": 0.943,
+        "r_log": 0.854,
+        "median_abs_pct_err": 0.0,
+        "n": 1329044
+      },
+      "ml": {
+        "bias_pct": -1.8,
+        "rmse": 17.87,
+        "r": 0.969,
+        "r_log": 0.9,
+        "median_abs_pct_err": 28.9,
+        "n": 1329044
+      },
+      "merged": {
+        "bias_pct": -1.8,
+        "rmse": 17.87,
+        "r": 0.969,
+        "r_log": 0.9,
+        "median_abs_pct_err": 28.9,
+        "n": 1329044
+      }
+    },
+    "biome_name_year": {
+      "raw_modis": {
+        "bias_pct": -84.3,
+        "rmse": 1996844.4,
+        "r": 0.996,
+        "r_log": 0.991,
+        "median_abs_pct_err": 85.6,
+        "n": 14
+      },
+      "global_multiplier": {
+        "bias_pct": -4.5,
+        "rmse": 250076.86,
+        "r": 0.996,
+        "r_log": 0.991,
+        "median_abs_pct_err": 12.3,
+        "n": 14
+      },
+      "quantile_mapping": {
+        "bias_pct": -1.9,
+        "rmse": 68335.65,
+        "r": 1.0,
+        "r_log": 0.999,
+        "median_abs_pct_err": 3.0,
+        "n": 14
+      },
+      "ml": {
+        "bias_pct": 0.1,
+        "rmse": 58773.15,
+        "r": 1.0,
+        "r_log": 1.0,
+        "median_abs_pct_err": 2.2,
+        "n": 14
+      },
+      "merged": {
+        "bias_pct": 0.1,
+        "rmse": 58773.15,
+        "r": 1.0,
+        "r_log": 1.0,
+        "median_abs_pct_err": 2.2,
+        "n": 14
+      }
+    },
+    "country_iso3_year": {
+      "raw_modis": {
+        "bias_pct": -84.3,
+        "rmse": 225525.27,
+        "r": 0.957,
+        "r_log": 0.985,
+        "median_abs_pct_err": 86.6,
+        "n": 169
+      },
+      "global_multiplier": {
+        "bias_pct": -4.5,
+        "rmse": 76146.61,
+        "r": 0.957,
+        "r_log": 0.98,
+        "median_abs_pct_err": 23.9,
+        "n": 169
+      },
+      "quantile_mapping": {
+        "bias_pct": -1.9,
+        "rmse": 33978.37,
+        "r": 0.993,
+        "r_log": 0.981,
+        "median_abs_pct_err": 22.3,
+        "n": 169
+      },
+      "ml": {
+        "bias_pct": 0.1,
+        "rmse": 11715.22,
+        "r": 0.999,
+        "r_log": 0.984,
+        "median_abs_pct_err": 14.1,
+        "n": 169
+      },
+      "merged": {
+        "bias_pct": 0.1,
+        "rmse": 11715.3,
+        "r": 0.999,
+        "r_log": 0.984,
+        "median_abs_pct_err": 14.1,
+        "n": 169
+      }
+    },
+    "ca_ecozone_year": {
+      "raw_modis": {
+        "bias_pct": -91.2,
+        "rmse": 61842.85,
+        "r": 0.963,
+        "r_log": 0.979,
+        "median_abs_pct_err": 89.4,
+        "n": 12
+      },
+      "global_multiplier": {
+        "bias_pct": -46.3,
+        "rmse": 34982.87,
+        "r": 0.963,
+        "r_log": 0.979,
+        "median_abs_pct_err": 36.2,
+        "n": 12
+      },
+      "quantile_mapping": {
+        "bias_pct": -9.4,
+        "rmse": 12670.9,
+        "r": 0.984,
+        "r_log": 0.972,
+        "median_abs_pct_err": 21.9,
+        "n": 12
+      },
+      "ml": {
+        "bias_pct": 3.8,
+        "rmse": 3643.1,
+        "r": 0.999,
+        "r_log": 0.987,
+        "median_abs_pct_err": 10.2,
+        "n": 12
+      },
+      "merged": {
+        "bias_pct": 3.8,
+        "rmse": 3643.1,
+        "r": 0.999,
+        "r_log": 0.987,
+        "median_abs_pct_err": 10.2,
+        "n": 12
+      }
+    },
+    "global_year_bias_pct": {
+      "raw_modis": {
+        "2021": -84.3
+      },
+      "global_multiplier": {
+        "2021": -4.5
+      },
+      "quantile_mapping": {
+        "2021": -1.9
+      },
+      "ml": {
+        "2021": 0.1
+      },
+      "merged": {
+        "2021": 0.1
+      }
+    },
+    "per_biome_bias_pct": {
+      "Boreal Forests/Taiga": {
+        "raw_modis": -91.0,
+        "global_multiplier": -45.1,
+        "quantile_mapping": 4.7,
+        "ml": 7.0,
+        "merged": 7.0
+      },
+      "Deserts & Xeric Shrublands": {
+        "raw_modis": -86.7,
+        "global_multiplier": -19.1,
+        "quantile_mapping": -2.7,
+        "ml": -2.4,
+        "merged": -2.4
+      },
+      "Flooded Grasslands & Savannas": {
+        "raw_modis": -84.0,
+        "global_multiplier": -2.2,
+        "quantile_mapping": -3.1,
+        "ml": -1.8,
+        "merged": -1.8
+      },
+      "Mangroves": {
+        "raw_modis": -84.7,
+        "global_multiplier": -6.5,
+        "quantile_mapping": -0.2,
+        "ml": 3.9,
+        "merged": 3.9
+      },
+      "Mediterranean Forests, Woodlands & Scrub": {
+        "raw_modis": -85.2,
+        "global_multiplier": -9.6,
+        "quantile_mapping": -8.9,
+        "ml": -7.2,
+        "merged": -7.2
+      },
+      "Montane Grasslands & Shrublands": {
+        "raw_modis": -84.7,
+        "global_multiplier": -7.0,
+        "quantile_mapping": -1.9,
+        "ml": 1.4,
+        "merged": 1.4
+      },
+      "Temperate Broadleaf & Mixed Forests": {
+        "raw_modis": -86.1,
+        "global_multiplier": -15.1,
+        "quantile_mapping": -11.5,
+        "ml": -5.3,
+        "merged": -5.3
+      },
+      "Temperate Conifer Forests": {
+        "raw_modis": -88.9,
+        "global_multiplier": -32.3,
+        "quantile_mapping": 5.5,
+        "ml": 3.9,
+        "merged": 3.9
+      },
+      "Temperate Grasslands, Savannas & Shrublands": {
+        "raw_modis": -83.9,
+        "global_multiplier": -1.9,
+        "quantile_mapping": -6.4,
+        "ml": -0.1,
+        "merged": -0.1
+      },
+      "Tropical & Subtropical Coniferous Forests": {
+        "raw_modis": -90.0,
+        "global_multiplier": -39.2,
+        "quantile_mapping": -5.5,
+        "ml": 1.0,
+        "merged": 1.0
+      },
+      "Tropical & Subtropical Dry Broadleaf Forests": {
+        "raw_modis": -86.7,
+        "global_multiplier": -18.8,
+        "quantile_mapping": -1.1,
+        "ml": 1.2,
+        "merged": 1.2
+      },
+      "Tropical & Subtropical Grasslands, Savannas & Shrublands": {
+        "raw_modis": -82.6,
+        "global_multiplier": 6.4,
+        "quantile_mapping": -2.8,
+        "ml": -1.9,
+        "merged": -1.9
+      },
+      "Tropical & Subtropical Moist Broadleaf Forests": {
+        "raw_modis": -83.1,
+        "global_multiplier": 3.1,
+        "quantile_mapping": -1.0,
+        "ml": 3.5,
+        "merged": 3.5
+      },
+      "Tundra": {
+        "raw_modis": -89.6,
+        "global_multiplier": -36.3,
+        "quantile_mapping": 0.0,
+        "ml": -1.7,
+        "merged": -1.7
+      }
+    }
+  },
+  "test_2022_2024": {
+    "cell_month": {
+      "raw_modis": {
+        "bias_pct": -82.6,
+        "rmse": 133.73,
+        "r": 0.856,
+        "r_log": 0.828,
+        "median_abs_pct_err": 81.8,
+        "n": 738928
+      },
+      "global_multiplier": {
+        "bias_pct": 6.0,
+        "rmse": 74.09,
+        "r": 0.856,
+        "r_log": 0.831,
+        "median_abs_pct_err": 56.4,
+        "n": 738928
+      },
+      "quantile_mapping": {
+        "bias_pct": -0.2,
+        "rmse": 60.06,
+        "r": 0.909,
+        "r_log": 0.837,
+        "median_abs_pct_err": 55.1,
+        "n": 738928
+      },
+      "ml": {
+        "bias_pct": 2.5,
+        "rmse": 42.24,
+        "r": 0.955,
+        "r_log": 0.904,
+        "median_abs_pct_err": 43.2,
+        "n": 738928
+      },
+      "merged": {
+        "bias_pct": 2.5,
+        "rmse": 42.24,
+        "r": 0.955,
+        "r_log": 0.904,
+        "median_abs_pct_err": 43.2,
+        "n": 738928
+      }
+    },
+    "cell_month_all": {
+      "raw_modis": {
+        "bias_pct": -83.8,
+        "rmse": 58.02,
+        "r": 0.873,
+        "r_log": 0.849,
+        "median_abs_pct_err": 0.0,
+        "n": 3957461
+      },
+      "global_multiplier": {
+        "bias_pct": -1.3,
+        "rmse": 32.44,
+        "r": 0.873,
+        "r_log": 0.846,
+        "median_abs_pct_err": 0.0,
+        "n": 3957461
+      },
+      "quantile_mapping": {
+        "bias_pct": -7.0,
+        "rmse": 26.48,
+        "r": 0.918,
+        "r_log": 0.853,
+        "median_abs_pct_err": 0.0,
+        "n": 3957461
+      },
+      "ml": {
+        "bias_pct": 2.3,
+        "rmse": 18.92,
+        "r": 0.958,
+        "r_log": 0.895,
+        "median_abs_pct_err": 29.8,
+        "n": 3957461
+      },
+      "merged": {
+        "bias_pct": 2.3,
+        "rmse": 18.92,
+        "r": 0.958,
+        "r_log": 0.895,
+        "median_abs_pct_err": 29.8,
+        "n": 3957461
+      }
+    },
+    "biome_name_year": {
+      "raw_modis": {
+        "bias_pct": -83.8,
+        "rmse": 1997313.15,
+        "r": 0.996,
+        "r_log": 0.989,
+        "median_abs_pct_err": 85.0,
+        "n": 42
+      },
+      "global_multiplier": {
+        "bias_pct": -1.3,
+        "rmse": 290664.28,
+        "r": 0.996,
+        "r_log": 0.989,
+        "median_abs_pct_err": 9.8,
+        "n": 42
+      },
+      "quantile_mapping": {
+        "bias_pct": -0.5,
+        "rmse": 52297.55,
+        "r": 1.0,
+        "r_log": 0.999,
+        "median_abs_pct_err": 4.3,
+        "n": 42
+      },
+      "ml": {
+        "bias_pct": 4.3,
+        "rmse": 145077.6,
+        "r": 0.999,
+        "r_log": 0.999,
+        "median_abs_pct_err": 4.5,
+        "n": 42
+      },
+      "merged": {
+        "bias_pct": 4.3,
+        "rmse": 145077.6,
+        "r": 0.999,
+        "r_log": 0.999,
+        "median_abs_pct_err": 4.5,
+        "n": 42
+      }
+    },
+    "country_iso3_year": {
+      "raw_modis": {
+        "bias_pct": -83.8,
+        "rmse": 222282.8,
+        "r": 0.959,
+        "r_log": 0.981,
+        "median_abs_pct_err": 86.8,
+        "n": 501
+      },
+      "global_multiplier": {
+        "bias_pct": -1.3,
+        "rmse": 76693.5,
+        "r": 0.959,
+        "r_log": 0.976,
+        "median_abs_pct_err": 24.4,
+        "n": 501
+      },
+      "quantile_mapping": {
+        "bias_pct": -0.5,
+        "rmse": 36962.61,
+        "r": 0.991,
+        "r_log": 0.976,
+        "median_abs_pct_err": 24.2,
+        "n": 501
+      },
+      "ml": {
+        "bias_pct": 4.3,
+        "rmse": 21686.79,
+        "r": 0.998,
+        "r_log": 0.982,
+        "median_abs_pct_err": 16.3,
+        "n": 501
+      },
+      "merged": {
+        "bias_pct": 4.3,
+        "rmse": 21686.76,
+        "r": 0.998,
+        "r_log": 0.982,
+        "median_abs_pct_err": 16.3,
+        "n": 501
+      }
+    },
+    "ca_ecozone_year": {
+      "raw_modis": {
+        "bias_pct": -91.8,
+        "rmse": 127110.83,
+        "r": 0.975,
+        "r_log": 0.985,
+        "median_abs_pct_err": 90.1,
+        "n": 39
+      },
+      "global_multiplier": {
+        "bias_pct": -49.9,
+        "rmse": 71423.98,
+        "r": 0.975,
+        "r_log": 0.985,
+        "median_abs_pct_err": 39.6,
+        "n": 39
+      },
+      "quantile_mapping": {
+        "bias_pct": -5.6,
+        "rmse": 28277.02,
+        "r": 0.976,
+        "r_log": 0.983,
+        "median_abs_pct_err": 20.9,
+        "n": 39
+      },
+      "ml": {
+        "bias_pct": -1.7,
+        "rmse": 8370.2,
+        "r": 0.998,
+        "r_log": 0.988,
+        "median_abs_pct_err": 10.7,
+        "n": 39
+      },
+      "merged": {
+        "bias_pct": -1.7,
+        "rmse": 8370.2,
+        "r": 0.998,
+        "r_log": 0.988,
+        "median_abs_pct_err": 10.7,
+        "n": 39
+      }
+    },
+    "global_year_bias_pct": {
+      "raw_modis": {
+        "2022": -83.7,
+        "2023": -84.2,
+        "2024": -83.5
+      },
+      "global_multiplier": {
+        "2022": -0.4,
+        "2023": -3.7,
+        "2024": 0.5
+      },
+      "quantile_mapping": {
+        "2022": -1.9,
+        "2023": -0.6,
+        "2024": 0.6
+      },
+      "ml": {
+        "2022": 2.2,
+        "2023": 3.8,
+        "2024": 6.5
+      },
+      "merged": {
+        "2022": 2.2,
+        "2023": 3.8,
+        "2024": 6.5
+      }
+    },
+    "per_biome_bias_pct": {
+      "Boreal Forests/Taiga": {
+        "raw_modis": -91.5,
+        "global_multiplier": -48.2,
+        "quantile_mapping": -2.2,
+        "ml": -3.2,
+        "merged": -3.2
+      },
+      "Deserts & Xeric Shrublands": {
+        "raw_modis": -87.5,
+        "global_multiplier": -23.7,
+        "quantile_mapping": -5.0,
+        "ml": 0.0,
+        "merged": 0.0
+      },
+      "Flooded Grasslands & Savannas": {
+        "raw_modis": -83.8,
+        "global_multiplier": -1.5,
+        "quantile_mapping": -1.4,
+        "ml": 1.0,
+        "merged": 1.0
+      },
+      "Mangroves": {
+        "raw_modis": -82.9,
+        "global_multiplier": 4.1,
+        "quantile_mapping": 11.1,
+        "ml": 11.8,
+        "merged": 11.8
+      },
+      "Mediterranean Forests, Woodlands & Scrub": {
+        "raw_modis": -83.5,
+        "global_multiplier": 0.4,
+        "quantile_mapping": -4.4,
+        "ml": -0.4,
+        "merged": -0.4
+      },
+      "Montane Grasslands & Shrublands": {
+        "raw_modis": -84.1,
+        "global_multiplier": -3.1,
+        "quantile_mapping": 2.0,
+        "ml": 7.8,
+        "merged": 7.8
+      },
+      "Temperate Broadleaf & Mixed Forests": {
+        "raw_modis": -85.3,
+        "global_multiplier": -10.2,
+        "quantile_mapping": -6.2,
+        "ml": -0.7,
+        "merged": -0.7
+      },
+      "Temperate Conifer Forests": {
+        "raw_modis": -88.8,
+        "global_multiplier": -31.4,
+        "quantile_mapping": -2.6,
+        "ml": -2.5,
+        "merged": -2.5
+      },
+      "Temperate Grasslands, Savannas & Shrublands": {
+        "raw_modis": -83.9,
+        "global_multiplier": -1.5,
+        "quantile_mapping": -7.8,
+        "ml": 1.6,
+        "merged": 1.6
+      },
+      "Tropical & Subtropical Coniferous Forests": {
+        "raw_modis": -89.1,
+        "global_multiplier": -33.5,
+        "quantile_mapping": 5.0,
+        "ml": 9.1,
+        "merged": 9.1
+      },
+      "Tropical & Subtropical Dry Broadleaf Forests": {
+        "raw_modis": -86.1,
+        "global_multiplier": -15.1,
+        "quantile_mapping": 5.8,
+        "ml": 3.0,
+        "merged": 3.0
+      },
+      "Tropical & Subtropical Grasslands, Savannas & Shrublands": {
+        "raw_modis": -82.0,
+        "global_multiplier": 9.8,
+        "quantile_mapping": 0.7,
+        "ml": 4.2,
+        "merged": 4.2
+      },
+      "Tropical & Subtropical Moist Broadleaf Forests": {
+        "raw_modis": -83.4,
+        "global_multiplier": 1.1,
+        "quantile_mapping": -2.5,
+        "ml": 10.8,
+        "merged": 10.8
+      },
+      "Tundra": {
+        "raw_modis": -89.8,
+        "global_multiplier": -37.7,
+        "quantile_mapping": -2.5,
+        "ml": -3.7,
+        "merged": -3.7
+      }
+    }
+  },
+  "validation_2019_2020": {
+    "cell_month": {
+      "raw_modis": {
+        "bias_pct": -83.0,
+        "rmse": 135.86,
+        "r": 0.861,
+        "r_log": 0.827,
+        "median_abs_pct_err": 82.0,
+        "n": 510837
+      },
+      "global_multiplier": {
+        "bias_pct": 2.2,
+        "rmse": 73.64,
+        "r": 0.861,
+        "r_log": 0.829,
+        "median_abs_pct_err": 53.7,
+        "n": 510837
+      },
+      "quantile_mapping": {
+        "bias_pct": -3.8,
+        "rmse": 59.41,
+        "r": 0.912,
+        "r_log": 0.834,
+        "median_abs_pct_err": 53.3,
+        "n": 510837
+      },
+      "ml": {
+        "bias_pct": -3.7,
+        "rmse": 38.97,
+        "r": 0.963,
+        "r_log": 0.91,
+        "median_abs_pct_err": 38.6,
+        "n": 510837
+      }
+    },
+    "cell_month_all": {
+      "raw_modis": {
+        "bias_pct": -84.2,
+        "rmse": 59.7,
+        "r": 0.878,
+        "r_log": 0.848,
+        "median_abs_pct_err": 0.0,
+        "n": 2660297
+      },
+      "global_multiplier": {
+        "bias_pct": -5.0,
+        "rmse": 32.57,
+        "r": 0.878,
+        "r_log": 0.847,
+        "median_abs_pct_err": 0.0,
+        "n": 2660297
+      },
+      "quantile_mapping": {
+        "bias_pct": -10.5,
+        "rmse": 26.4,
+        "r": 0.921,
+        "r_log": 0.853,
+        "median_abs_pct_err": 0.0,
+        "n": 2660297
+      },
+      "ml": {
+        "bias_pct": -4.2,
+        "rmse": 17.45,
+        "r": 0.966,
+        "r_log": 0.902,
+        "median_abs_pct_err": 28.7,
+        "n": 2660297
+      }
+    },
+    "biome_name_year": {
+      "raw_modis": {
+        "bias_pct": -84.2,
+        "rmse": 2054600.24,
+        "r": 0.998,
+        "r_log": 0.992,
+        "median_abs_pct_err": 86.4,
+        "n": 28
+      },
+      "global_multiplier": {
+        "bias_pct": -5.0,
+        "rmse": 206638.21,
+        "r": 0.998,
+        "r_log": 0.992,
+        "median_abs_pct_err": 18.1,
+        "n": 28
+      },
+      "quantile_mapping": {
+        "bias_pct": -3.9,
+        "rmse": 96959.22,
+        "r": 1.0,
+        "r_log": 0.999,
+        "median_abs_pct_err": 4.9,
+        "n": 28
+      },
+      "ml": {
+        "bias_pct": -2.1,
+        "rmse": 78119.37,
+        "r": 1.0,
+        "r_log": 1.0,
+        "median_abs_pct_err": 3.0,
+        "n": 28
+      }
+    },
+    "country_iso3_year": {
+      "raw_modis": {
+        "bias_pct": -84.2,
+        "rmse": 226998.49,
+        "r": 0.964,
+        "r_log": 0.984,
+        "median_abs_pct_err": 86.9,
+        "n": 338
+      },
+      "global_multiplier": {
+        "bias_pct": -5.0,
+        "rmse": 69635.12,
+        "r": 0.964,
+        "r_log": 0.982,
+        "median_abs_pct_err": 24.4,
+        "n": 338
+      },
+      "quantile_mapping": {
+        "bias_pct": -3.8,
+        "rmse": 32134.06,
+        "r": 0.992,
+        "r_log": 0.981,
+        "median_abs_pct_err": 25.7,
+        "n": 338
+      },
+      "ml": {
+        "bias_pct": -2.1,
+        "rmse": 13292.55,
+        "r": 0.999,
+        "r_log": 0.989,
+        "median_abs_pct_err": 13.9,
+        "n": 338
+      }
+    },
+    "ca_ecozone_year": {
+      "raw_modis": {
+        "bias_pct": -89.7,
+        "rmse": 15959.86,
+        "r": 0.961,
+        "r_log": 0.974,
+        "median_abs_pct_err": 89.4,
+        "n": 22
+      },
+      "global_multiplier": {
+        "bias_pct": -37.7,
+        "rmse": 8017.66,
+        "r": 0.961,
+        "r_log": 0.974,
+        "median_abs_pct_err": 39.0,
+        "n": 22
+      },
+      "quantile_mapping": {
+        "bias_pct": -14.7,
+        "rmse": 3133.11,
+        "r": 0.99,
+        "r_log": 0.97,
+        "median_abs_pct_err": 27.5,
+        "n": 22
+      },
+      "ml": {
+        "bias_pct": 6.7,
+        "rmse": 2070.12,
+        "r": 0.997,
+        "r_log": 0.978,
+        "median_abs_pct_err": 19.9,
+        "n": 22
+      }
+    },
+    "global_year_bias_pct": {
+      "raw_modis": {
+        "2019": -84.2,
+        "2020": -84.3
+      },
+      "global_multiplier": {
+        "2019": -4.6,
+        "2020": -5.3
+      },
+      "quantile_mapping": {
+        "2019": -2.9,
+        "2020": -4.9
+      },
+      "ml": {
+        "2019": -0.7,
+        "2020": -3.5
+      }
+    },
+    "per_biome_bias_pct": {
+      "Boreal Forests/Taiga": {
+        "raw_modis": -91.2,
+        "global_multiplier": -46.7,
+        "quantile_mapping": -1.7,
+        "ml": -0.2
+      },
+      "Deserts & Xeric Shrublands": {
+        "raw_modis": -87.0,
+        "global_multiplier": -21.8,
+        "quantile_mapping": -3.6,
+        "ml": -1.8
+      },
+      "Flooded Grasslands & Savannas": {
+        "raw_modis": -84.2,
+        "global_multiplier": -4.7,
+        "quantile_mapping": -5.5,
+        "ml": -2.2
+      },
+      "Mangroves": {
+        "raw_modis": -85.3,
+        "global_multiplier": -11.4,
+        "quantile_mapping": -6.6,
+        "ml": 0.2
+      },
+      "Mediterranean Forests, Woodlands & Scrub": {
+        "raw_modis": -86.0,
+        "global_multiplier": -15.8,
+        "quantile_mapping": -12.9,
+        "ml": -8.8
+      },
+      "Montane Grasslands & Shrublands": {
+        "raw_modis": -85.8,
+        "global_multiplier": -14.4,
+        "quantile_mapping": 3.1,
+        "ml": -2.9
+      },
+      "Temperate Broadleaf & Mixed Forests": {
+        "raw_modis": -86.8,
+        "global_multiplier": -20.3,
+        "quantile_mapping": -1.1,
+        "ml": 2.1
+      },
+      "Temperate Conifer Forests": {
+        "raw_modis": -88.7,
+        "global_multiplier": -31.9,
+        "quantile_mapping": -5.1,
+        "ml": -4.7
+      },
+      "Temperate Grasslands, Savannas & Shrublands": {
+        "raw_modis": -84.3,
+        "global_multiplier": -5.3,
+        "quantile_mapping": -11.3,
+        "ml": -4.4
+      },
+      "Tropical & Subtropical Coniferous Forests": {
+        "raw_modis": -89.3,
+        "global_multiplier": -35.6,
+        "quantile_mapping": 4.7,
+        "ml": 0.1
+      },
+      "Tropical & Subtropical Dry Broadleaf Forests": {
+        "raw_modis": -86.9,
+        "global_multiplier": -21.1,
+        "quantile_mapping": -3.3,
+        "ml": -0.7
+      },
+      "Tropical & Subtropical Grasslands, Savannas & Shrublands": {
+        "raw_modis": -82.5,
+        "global_multiplier": 5.6,
+        "quantile_mapping": -3.2,
+        "ml": -3.1
+      },
+      "Tropical & Subtropical Moist Broadleaf Forests": {
+        "raw_modis": -83.7,
+        "global_multiplier": -2.1,
+        "quantile_mapping": -5.8,
+        "ml": -0.8
+      },
+      "Tundra": {
+        "raw_modis": -89.1,
+        "global_multiplier": -34.4,
+        "quantile_mapping": 1.3,
+        "ml": 1.7
+      }
+    }
+  },
+  "per_biome_choice": {
+    "Boreal Forests/Taiga": "ml",
+    "Deserts & Xeric Shrublands": "ml",
+    "Flooded Grasslands & Savannas": "ml",
+    "Mangroves": "ml",
+    "Mediterranean Forests, Woodlands & Scrub": "ml",
+    "Montane Grasslands & Shrublands": "ml",
+    "Rock & Ice": "quantile_mapping",
+    "Temperate Broadleaf & Mixed Forests": "ml",
+    "Temperate Conifer Forests": "ml",
+    "Temperate Grasslands, Savannas & Shrublands": "ml",
+    "Tropical & Subtropical Coniferous Forests": "ml",
+    "Tropical & Subtropical Dry Broadleaf Forests": "ml",
+    "Tropical & Subtropical Grasslands, Savannas & Shrublands": "ml",
+    "Tropical & Subtropical Moist Broadleaf Forests": "ml",
+    "Tundra": "ml"
+  },
+  "models": {
+    "A": {
+      "power": 1.2,
+      "deviance": 4.481117403416665,
+      "iters": 1628,
+      "ratio": 0.9746247998451879,
+      "final_rounds": 1790
+    },
+    "B": {
+      "power": 1.3,
+      "deviance": 0.6047,
+      "iters": 1866,
+      "ratio": 0.979755329686703,
+      "final_rounds": 2052,
+      "note": "restored from run1 (identical deterministic fit)"
+    }
+  },
+  "features": [
+    "aq_n",
+    "aq_na",
+    "aq_frp",
+    "aq_frpmax",
+    "aq_frp_per_det",
+    "aq_scan",
+    "aq_track",
+    "aq_conf",
+    "aq_hour",
+    "aqo_n",
+    "aqo_frp",
+    "td_n",
+    "td_frp",
+    "tn_n",
+    "terra_hour",
+    "aqua_hour_nominal",
+    "nb8_n",
+    "nb8_frp",
+    "nb8_max",
+    "ring24_any",
+    "self_any",
+    "lag1_any",
+    "lag2_any",
+    "lag3_any",
+    "lead1_any",
+    "lag1_aq_n",
+    "lag9_any",
+    "biome_num",
+    "realm",
+    "pass",
+    "lat",
+    "abs_lat",
+    "doy_sin",
+    "doy_cos",
+    "clim_rate",
+    "clim_active",
+    "clim_fpd"
+  ],
+  "outage_days_excluded_from_scoring": [
+    [
+      2020,
+      3
+    ],
+    [
+      2021,
+      3
+    ],
+    [
+      2022,
+      31
+    ],
+    [
+      2023,
+      3
+    ],
+    [
+      2024,
+      24
+    ]
+  ],
+  "tier_c_share_final": [
+    {
+      "biome_num": 0,
+      "season": "DJF",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 0,
+      "season": "MAM",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 0,
+      "season": "JJA",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 0,
+      "season": "SON",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 1,
+      "season": "DJF",
+      "r_c": 0.016877146972724952,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 1,
+      "season": "MAM",
+      "r_c": 0.011193917246946706,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 1,
+      "season": "JJA",
+      "r_c": 0.11172156478866743,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 1,
+      "season": "SON",
+      "r_c": 0.13388961367534633,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 2,
+      "season": "DJF",
+      "r_c": 0.015481889442635842,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 2,
+      "season": "MAM",
+      "r_c": 0.008748531458704856,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 2,
+      "season": "JJA",
+      "r_c": 0.07886555802762087,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 2,
+      "season": "SON",
+      "r_c": 0.130198255983461,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 3,
+      "season": "DJF",
+      "r_c": 0.05098486520960581,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 3,
+      "season": "MAM",
+      "r_c": 0.0045791294148624226,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 3,
+      "season": "JJA",
+      "r_c": 0.02701555963643355,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 3,
+      "season": "SON",
+      "r_c": 0.24150181108943997,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 4,
+      "season": "DJF",
+      "r_c": 0.14436923398583487,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 4,
+      "season": "MAM",
+      "r_c": 0.0461766485989791,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 4,
+      "season": "JJA",
+      "r_c": 0.11039738524234087,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 4,
+      "season": "SON",
+      "r_c": 0.07895038523095246,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 5,
+      "season": "DJF",
+      "r_c": 0.16889896051771178,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 5,
+      "season": "MAM",
+      "r_c": 0.05085888874999637,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 5,
+      "season": "JJA",
+      "r_c": 0.01698641675567203,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 5,
+      "season": "SON",
+      "r_c": 0.030285452479958844,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 6,
+      "season": "DJF",
+      "r_c": 1.0,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 6,
+      "season": "MAM",
+      "r_c": 0.0710562478919376,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 6,
+      "season": "JJA",
+      "r_c": 0.009158915150488427,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 6,
+      "season": "SON",
+      "r_c": 0.1155776920746191,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 7,
+      "season": "DJF",
+      "r_c": 0.001380574026578524,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 7,
+      "season": "MAM",
+      "r_c": 0.007387401933010311,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 7,
+      "season": "JJA",
+      "r_c": 0.07592702008580633,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 7,
+      "season": "SON",
+      "r_c": 0.01285439499803953,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 8,
+      "season": "DJF",
+      "r_c": 0.1280977868279004,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 8,
+      "season": "MAM",
+      "r_c": 0.04153353114975252,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 8,
+      "season": "JJA",
+      "r_c": 0.11277743108374168,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 8,
+      "season": "SON",
+      "r_c": 0.08351233448193891,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 9,
+      "season": "DJF",
+      "r_c": 0.0030301373477120575,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 9,
+      "season": "MAM",
+      "r_c": 0.006308257636107313,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 9,
+      "season": "JJA",
+      "r_c": 0.08104445056224985,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 9,
+      "season": "SON",
+      "r_c": 0.018120533765002823,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 10,
+      "season": "DJF",
+      "r_c": 0.024628588944518238,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 10,
+      "season": "MAM",
+      "r_c": 0.051305863716809466,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 10,
+      "season": "JJA",
+      "r_c": 0.23332526914237328,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 10,
+      "season": "SON",
+      "r_c": 0.15083853640845693,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 11,
+      "season": "DJF",
+      "r_c": 0.10818237072623225,
+      "source": "biome"
+    },
+    {
+      "biome_num": 11,
+      "season": "MAM",
+      "r_c": 0.5503514197357323,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 11,
+      "season": "JJA",
+      "r_c": 0.020011677127426655,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 11,
+      "season": "SON",
+      "r_c": 0.9588994372122108,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 12,
+      "season": "DJF",
+      "r_c": 0.2569938623020815,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 12,
+      "season": "MAM",
+      "r_c": 0.16587942024459476,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 12,
+      "season": "JJA",
+      "r_c": 0.0501457276066819,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 12,
+      "season": "SON",
+      "r_c": 0.050551691595087475,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 13,
+      "season": "DJF",
+      "r_c": 0.12826903794814962,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 13,
+      "season": "MAM",
+      "r_c": 0.05820685259395234,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 13,
+      "season": "JJA",
+      "r_c": 0.13657490133689942,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 13,
+      "season": "SON",
+      "r_c": 0.10400160073055899,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 14,
+      "season": "DJF",
+      "r_c": 0.042915966324875404,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 14,
+      "season": "MAM",
+      "r_c": 0.013713571724847783,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 14,
+      "season": "JJA",
+      "r_c": 0.072341627277862,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 14,
+      "season": "SON",
+      "r_c": 0.18642731062455403,
+      "source": "biome_season"
+    },
+    {
+      "biome_num": 99,
+      "season": "DJF",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 99,
+      "season": "MAM",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 99,
+      "season": "JJA",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    },
+    {
+      "biome_num": 99,
+      "season": "SON",
+      "r_c": 0.02127344395654215,
+      "source": "global"
+    }
+  ]
+}

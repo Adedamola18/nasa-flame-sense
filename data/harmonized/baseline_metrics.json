@@ -1,0 +1,165 @@
+{
+  "global_multiplier_k": 6.099,
+  "cell_month": {
+    "raw_modis": {
+      "bias_pct": -82.2,
+      "rmse": 136.61,
+      "r": 0.845,
+      "r_log": 0.821,
+      "median_abs_pct_err": 81.8,
+      "n": 1001378
+    },
+    "global_multiplier": {
+      "bias_pct": 8.7,
+      "rmse": 79.5,
+      "r": 0.845,
+      "r_log": 0.824,
+      "median_abs_pct_err": 59.0,
+      "n": 1001378
+    },
+    "quantile_mapping": {
+      "bias_pct": 2.9,
+      "rmse": 65.09,
+      "r": 0.903,
+      "r_log": 0.83,
+      "median_abs_pct_err": 57.1,
+      "n": 1001378
+    }
+  },
+  "biome_name_year": {
+    "raw_modis": {
+      "bias_pct": -83.4,
+      "rmse": 1994623.27,
+      "r": 0.994,
+      "r_log": 0.99,
+      "median_abs_pct_err": 85.4,
+      "n": 56
+    },
+    "global_multiplier": {
+      "bias_pct": 1.1,
+      "rmse": 390648.26,
+      "r": 0.994,
+      "r_log": 0.99,
+      "median_abs_pct_err": 14.1,
+      "n": 56
+    },
+    "quantile_mapping": {
+      "bias_pct": 2.2,
+      "rmse": 158193.61,
+      "r": 0.998,
+      "r_log": 0.997,
+      "median_abs_pct_err": 5.3,
+      "n": 56
+    }
+  },
+  "country_iso3_year": {
+    "raw_modis": {
+      "bias_pct": -83.4,
+      "rmse": 222516.61,
+      "r": 0.952,
+      "r_log": 0.981,
+      "median_abs_pct_err": 86.6,
+      "n": 671
+    },
+    "global_multiplier": {
+      "bias_pct": 1.1,
+      "rmse": 88873.78,
+      "r": 0.952,
+      "r_log": 0.975,
+      "median_abs_pct_err": 24.0,
+      "n": 671
+    },
+    "quantile_mapping": {
+      "bias_pct": 2.2,
+      "rmse": 49691.69,
+      "r": 0.987,
+      "r_log": 0.976,
+      "median_abs_pct_err": 25.2,
+      "n": 671
+    }
+  },
+  "ca_ecozone_year": {
+    "raw_modis": {
+      "bias_pct": -91.5,
+      "rmse": 115316.53,
+      "r": 0.973,
+      "r_log": 0.984,
+      "median_abs_pct_err": 89.3,
+      "n": 51
+    },
+    "global_multiplier": {
+      "bias_pct": -47.9,
+      "rmse": 63749.23,
+      "r": 0.973,
+      "r_log": 0.984,
+      "median_abs_pct_err": 37.5,
+      "n": 51
+    },
+    "quantile_mapping": {
+      "bias_pct": -3.4,
+      "rmse": 26483.51,
+      "r": 0.975,
+      "r_log": 0.98,
+      "median_abs_pct_err": 21.4,
+      "n": 51
+    }
+  },
+  "per_biome_test_bias": {
+    "Boreal Forests/Taiga": {
+      "global_multiplier_bias_pct": -42.9,
+      "quantile_mapping_bias_pct": 8.5
+    },
+    "Deserts & Xeric Shrublands": {
+      "global_multiplier_bias_pct": -21.8,
+      "quantile_mapping_bias_pct": -3.4
+    },
+    "Flooded Grasslands & Savannas": {
+      "global_multiplier_bias_pct": 1.0,
+      "quantile_mapping_bias_pct": 0.5
+    },
+    "Mangroves": {
+      "global_multiplier_bias_pct": 1.4,
+      "quantile_mapping_bias_pct": 8.2
+    },
+    "Mediterranean Forests, Woodlands & Scrub": {
+      "global_multiplier_bias_pct": -1.3,
+      "quantile_mapping_bias_pct": -4.0
+    },
+    "Montane Grasslands & Shrublands": {
+      "global_multiplier_bias_pct": 2.5,
+      "quantile_mapping_bias_pct": 7.4
+    },
+    "Temperate Broadleaf & Mixed Forests": {
+      "global_multiplier_bias_pct": -12.1,
+      "quantile_mapping_bias_pct": -8.2
+    },
+    "Temperate Conifer Forests": {
+      "global_multiplier_bias_pct": -29.4,
+      "quantile_mapping_bias_pct": 4.3
+    },
+    "Temperate Grasslands, Savannas & Shrublands": {
+      "global_multiplier_bias_pct": -4.2,
+      "quantile_mapping_bias_pct": -8.9
+    },
+    "Tropical & Subtropical Coniferous Forests": {
+      "global_multiplier_bias_pct": -35.5,
+      "quantile_mapping_bias_pct": 1.7
+    },
+    "Tropical & Subtropical Dry Broadleaf Forests": {
+      "global_multiplier_bias_pct": -15.2,
+      "quantile_mapping_bias_pct": 5.1
+    },
+    "Tropical & Subtropical Grasslands, Savannas & Shrublands": {
+      "global_multiplier_bias_pct": 14.0,
+      "quantile_mapping_bias_pct": 3.8
+    },
+    "Tropical & Subtropical Moist Broadleaf Forests": {
+      "global_multiplier_bias_pct": 2.3,
+      "quantile_mapping_bias_pct": -1.5
+    },
+    "Tundra": {
+      "global_multiplier_bias_pct": -31.9,
+      "quantile_mapping_bias_pct": 7.2
+    }
+  }
+}
