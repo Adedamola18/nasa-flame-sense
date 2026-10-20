@@ -1,0 +1,13 @@
+/*
+ * Overrides for MapLibre's popup, kept beside the MapLibre import.
+ * (In globals.css the Tailwind loader drops rules for classes that only MapLibre's code uses.)
+ */
+.cell-popup .maplibregl-popup-content {
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.cell-popup .maplibregl-popup-tip {
+  display: none;
+}
