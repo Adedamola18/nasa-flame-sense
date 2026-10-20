@@ -17,3 +17,12 @@ vectors.ndjson
 
 # OS / editor
 .DS_Store
+
+# Raw downloads (FIRMS archives are ~10 GB; re-fetch with pipeline/01_fetch_firms.py)
+data/raw/
+
+# Large generated data (rebuild with pipeline/02-05b; publish the record via Zenodo, not git)
+data/grid/
+data/ml/
+data/harmonized/*.parquet
+data/harmonized/ml_models/
